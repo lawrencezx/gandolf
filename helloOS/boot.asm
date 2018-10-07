@@ -13,6 +13,6 @@ DispStr:                ;the next 7 lines is about display a message by int 10h
   mov dx, 0000h         ;
   int 10h               ;
   ret 
-BootMessage:  db "Hello, Gandalf"
+BootMessage:  db "Hello, Gandolf"
 times 510-($-$$)  db 0 
 dw 0xaa55
