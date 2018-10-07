@@ -6,4 +6,4 @@ Check *.bochsrc* and make sure that your image path is right.
 
 *Makefile* is available.
 
-Then you can use command bochs to run.
+Then you can use command *bochs* to run.
